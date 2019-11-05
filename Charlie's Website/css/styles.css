@@ -1,0 +1,55 @@
+/*Starter Project Styles */
+
+body {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 16px;
+    text-align: center;
+    background-color: #eae7dc;
+    padding: 5%
+   
+}
+
+h1 {
+    font-weight: 300;
+    color: white;
+    background-color: #e85a4f;
+}
+
+h2 {
+    font-weight: 300;
+    color: #e98074;
+    
+}
+
+h3 {
+    font-weight:300;
+    color: #e98074;
+}
+
+h5 {
+    font-weight: 300;
+    color:#8e8d8a;
+}
+
+li {
+    list-style-type: none;
+    color: #8e8d8a;
+}
+
+img {
+    max-width: 20%;
+    max-height: 20%;
+}
+
+ul {
+    margin-bottom: 2rem;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 200px;
+  grid-gap: 50px;
+}
